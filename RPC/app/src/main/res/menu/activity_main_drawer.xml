@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rakit_pc"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Rakit PC" />
+        <item
+            android:id="@+id/nav_rakitan_tersimpan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Rakitan Tersimpan" />
+        <item
+            android:id="@+id/nav_penjelasan_komponen"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Penjelasan Komponen" />
+        <item
+            android:id="@+id/nav_daftar_barang"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Daftar Barang" />
+    </group>
+
+</menu>
