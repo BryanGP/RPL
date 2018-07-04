@@ -45,9 +45,11 @@ public class MainActivity extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-        fragmentManager.beginTransaction().replace(R.id.content_frame, new RakitFragment()).commit();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setCheckedItem(R.id.nav_rakit_pc);
+        if (savedInstanceState == null) {
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new RakitFragment()).commit();
+            navigationView.setCheckedItem(R.id.nav_rakit_pc);
+        }
         navigationView.setNavigationItemSelectedListener(this);
     }
 

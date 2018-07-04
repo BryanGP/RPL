@@ -7,11 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class PenjelasanFragment extends Fragment {
+public class RakitpilihFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        getActivity().setTitle("Penjelasan Komponen");
-        return inflater.inflate(R.layout.fragmentpenjelasan, container, false);
+        getActivity().setTitle("Rakit PC");
+        return inflater.inflate(R.layout.fragmentrakitpilih, container, false);
     }
 }

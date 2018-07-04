@@ -6,19 +6,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_rakit_pc"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_menu_manages"
             android:title="Rakit PC" />
         <item
             android:id="@+id/nav_rakitan_tersimpan"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_menu_archive"
             android:title="Rakitan Tersimpan" />
         <item
             android:id="@+id/nav_penjelasan_komponen"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/ic_menu_info_details"
             android:title="Penjelasan Komponen" />
         <item
             android:id="@+id/nav_daftar_barang"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_menu_find_holo_light"
             android:title="Daftar Barang" />
     </group>
 

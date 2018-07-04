@@ -11,6 +11,7 @@ public class DaftarFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+        getActivity().setTitle("Daftar Barang");
         return inflater.inflate(R.layout.fragmentdaftar, container, false);
     }
 }
